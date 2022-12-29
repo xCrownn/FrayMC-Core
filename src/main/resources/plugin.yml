@@ -1,0 +1,17 @@
+name: FrayMC-Core
+version: '${project.version}'
+main: xyz.xcrownn.fraymccore.FrayMCCore
+api-version: 1.17
+authors: [ xCrownn ]
+description: FrayMC Core plugin
+website: https://xCrownn.xyz/
+depend:
+  - PlaceholderAPI
+
+commands:
+  clan:
+    usage: </clan>
+    description: Opens the clan menu! YAY
+  coins:
+    usage: </coins>
+    description: Coins! YAY
